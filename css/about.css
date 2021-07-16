@@ -1,0 +1,81 @@
+h2.about0{
+    /* background-color: red; */
+    padding: 10px 0px;
+    font-size: 30px;
+    font-weight: bold;
+}
+h2.about0+p{
+    /* background-color: red; */
+    font-size: 18px;
+}
+.bg-image-about-top{
+    background-image: url(../images/abot.jpg);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+}
+.about-heading-h3{
+    /* background-color:red; */
+    padding: 50px 0px;
+    text-align: center;
+}
+.about-agter-hr-line{
+    background-color: rgba(212, 245, 190, 0.719);
+    padding:50px 0px;
+}
+.about-can-you-do-p img{
+    /* background-color: #fff; */
+    width:35px;
+    border-radius:50%
+}
+.about-can-you-do-p span{
+    background-color: #fff;
+    padding:8px;
+    border-radius:12px;
+    line-height:30px;
+    margin: 5px;
+    display: inline-block;
+    transition: all 0.8s;
+}
+.about-can-you-do-p span:hover{
+    background-color: rgb(250, 32, 32);
+    cursor: pointer;
+    color: #fff
+}
+.card-image-team img.devloper-team{
+    border-radius: 50%;
+    width:150px;
+    height: 150px;
+    item-align: center;
+    margin: 50px auto 10px;
+}
+.card-image-team{
+    background-color: rgba(42, 29, 1, 0.692) !important;
+    padding:10px 0px 50px 0px;
+    color: #fff;
+    transition: all 0.8s;
+}
+.card-image-team:hover{
+    background-color: rgb(37, 134, 37) !important;
+    cursor: pointer;
+    transform: translatey(-20px);
+}
+img.card-image-social-icon{
+    /* background-color:red; */
+    width: 35px;
+    border-radius: 50%;
+    transition: all 0.8s;
+}
+img.card-image-social-icon:hover{
+    cursor: pointer;
+    transform: translatey(-5px);
+}
+.bg-success-success-team{
+    color: #fff;
+    background-image:linear-gradient( rgba(2, 36, 2, 0.671) 100%, rgba(109, 96, 24, 0.5)100%), url(../images/aa.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+       
+}
